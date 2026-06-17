@@ -8,7 +8,7 @@ function Home() {
     const [food, setFood] = useState("");
     const [noPos, setNoPos] = useState({
         top: 300,
-        left: 350
+        left: 320
     });
     const places = [
         {
@@ -99,7 +99,7 @@ function Home() {
                                 background: "#06d6a0",
                                 color: "white",
                                 border: "none",
-                                padding: "12px 30px",
+                                padding: "10px 30px",
                                 borderRadius: "12px",
                                 fontSize: "18px",
                                 marginTop: "20px",
@@ -174,8 +174,6 @@ function Home() {
                             <option value="">
                                 Select Time
                             </option>
-                            <option>6:00 AM</option>
-                            <option>7:00 AM</option>
                             <option>8:00 AM</option>
                             <option>9:00 AM</option>
                             <option>10:00 AM</option>
@@ -184,8 +182,6 @@ function Home() {
                             <option>5:00 PM</option>
                             <option>6:00 PM</option>
                             <option>7:00 PM</option>
-                            <option>8:00 PM</option>
-                            <option>9:00 PM</option>
                         </select>
 
                         <button
